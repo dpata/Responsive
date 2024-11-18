@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Horizontal sin JavaScript</title>
+    <title>Responsividad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -12,11 +13,10 @@
             <div class="logo">
                 <a href="#">MiEmpresa</a>
             </div>
-            <!-- El checkbox para alternar el menú -->
+        
             <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="menu-icon">&#9776;</label> <!-- Icono de hamburguesa -->
+            <label for="menu-toggle" class="menu-icon">&#9776;</label> 
 
-            <!-- El menú de navegación -->
             <ul class="nav-links">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Servicios</a></li>
@@ -25,5 +25,16 @@
             </ul>
         </nav>
     </header>
+
+    <div class="content">
+        <section>
+            <h1>Bienvenidos a MiEmpresa</h1>
+            <p>Ofrecemos soluciones innovadoras en desarrollo de software.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MiEmpresa. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
